@@ -20,7 +20,7 @@ public class HolaMundo {
         return ResponseEntity
                 .status(HttpStatus.OK)
                 .header("Content-Type", "application/json")
-                .body("{\"name\": \"marco\"}");
+                .body("{\"name\": \"ruben\"}");
 
     }
 
